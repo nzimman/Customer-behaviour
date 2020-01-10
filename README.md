@@ -10,6 +10,8 @@ The analysis and calculation of the transition probabilities (probability of swi
 
 
 ### Transition Probabilites
+![Screenshot](tran_prob.png)
+
 
 
 
