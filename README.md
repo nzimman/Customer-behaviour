@@ -10,7 +10,7 @@ The analysis and calculation of the transition probabilities (probability of swi
 *to be added*
 
 ### Transition Probabilites
-These are calculated in the file *transition_prob_git.py*. There are some fields that need to be filled: path to the customer data and credentials of the PostGreSQL database where the data is saved.
+These are calculated in the file *transition_prob_git.py* and the result is saved in a csv file. In the Pythin file, there are some fields that need to be filled: path to the customer data and credentials of the PostGreSQL database where the data is saved.
 
 ![Screenshot](tran_prob.png)
 
