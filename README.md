@@ -30,7 +30,9 @@ It uses a Markov model to simulate the path of a customer in the supermarket; a 
 Once the customer reaches the "checkout", the program doesn't simulate him/her any longer.
 
 ## Visualization
-The cv2 library is used for the visualization of the customers in the supermarket. 
+The cv2 library is used for the visualization of the customers in the supermarket. To visualize the supermarket and its customers, run *visualize.py*.
+
+
 
 
 
