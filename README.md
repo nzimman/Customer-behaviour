@@ -15,7 +15,19 @@ These are calculated in the file *transition_prob_git.py* and the result is save
 ![Screenshot](tran_prob.png)
 
 
+## Class Customer
+This class is defined in *customer3.py* and represents a customer of a supermarket. To create an instance of this class the transition probabilities and a list with all possible states (i.e., sections in the supermarket: checkout, dairy, drinks...) are needed.
+
+### Attributes
+Among others: Transition probability matrix, current state, coordinates (x,y) of the customer, complete path of the customer,... 
+
+### Methods
+Generate the complete path in the supermarket, move through x and y axis, random generation of the next state, calculate the coordinates of the next section,...
+
 ## Simulation
+
+
+## Visualization
 
 
 
