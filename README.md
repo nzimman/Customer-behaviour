@@ -19,16 +19,18 @@ These are calculated in the file *transition_prob_git.py* and the result is save
 This class is defined in *customer3.py* and represents a customer of a supermarket. To create an instance of this class the transition probabilities and a list with all possible states (i.e., sections in the supermarket: checkout, dairy, drinks...) are needed.
 
 ### Attributes
-Among others: Transition probability matrix, current state, coordinates (x,y) of the customer, complete path of the customer,... 
+Among others: Transition probability matrix, current state, coordinates (x,y) of the customer in the supermarket, complete path of the customer,... 
 
 ### Methods
 Generate the complete path in the supermarket, move through x and y axis, random generation of the next state, calculate the coordinates of the next section,...
 
 ## Simulation
+It uses a Markov model to simulate the path of a customer in the supermarket; a Markov model (Markov Chain) assumes that the future state depends only on the current and not on the previous ones. 
 
+Once the customer reaches the "checkout", the program doesn't simulate him/her any longer.
 
 ## Visualization
-
+The cv2 library is used for the visualization of the customers in the supermarket. 
 
 
 
